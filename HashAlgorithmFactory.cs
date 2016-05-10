@@ -14,6 +14,7 @@ namespace HashCheck
         /// <returns>CryptoServiceProvider that performs ComputeHash against a byte array.</returns>
         public static HashAlgorithm GetHashAlgorithm(string algoName)
         {
+
             switch (algoName.ToLower())
             {
                 case "sha1":

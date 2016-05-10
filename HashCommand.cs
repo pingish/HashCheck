@@ -56,7 +56,7 @@ namespace HashCheck
         {
             var sb = new StringBuilder();
 
-            for (int i = 0; i < bytes.Count; i++)
+            for (var i = 0; i < bytes.Count; i++)
                 sb.Append(i.ToString("X2"));
 
             return sb.ToString().ToLower();
